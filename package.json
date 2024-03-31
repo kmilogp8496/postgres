@@ -18,7 +18,7 @@
     "node": ">=12"
   },
   "scripts": {
-    "build": "npm run build:cjs && npm run build:deno && npm run build:cf",
+    "build": "npm run build:cjs && npm run build:deno",
     "build:cjs": "node transpile.cjs",
     "build:deno": "node transpile.deno.js",
     "build:cf": "node transpile.cf.js",
